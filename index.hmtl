@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sensors</title>
+</head>
+
+<body>
+<div>Beschleunigung (x, y, z) = (<span id="accel-x"></span>,<span id="accel-y"></span>,<span id="accel-z"></span>)</div>
+<p></p>
+<div>Neigung (x, y, z) = (<span id="neigung-x"></span>,<span id="neigung-y"></span>,<span id="neigung-z"></span>)</div>
+<p></p>
+<div>Kompass (alpha, beta, gamma) = (<span id="orientation-a"></span>,<span id="orientation-b"></span>,<span id="orientation-g"></span>)</div>
+<script>
+//https://www.javascript-kurs.de/javascript-sonsoren-handy-tablet-lagesensor.htm
+//https://marmelab.com/blog/2020/02/05/getting-the-ball-rolling-with-devicemotion.html
+
+
+
+</script>
+</body>
+
+</html>
