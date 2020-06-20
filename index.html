@@ -17,7 +17,10 @@
 <script>
 //https://www.javascript-kurs.de/javascript-sonsoren-handy-tablet-lagesensor.htm
 //https://marmelab.com/blog/2020/02/05/getting-the-ball-rolling-with-devicemotion.html
-
+window.addEventListener('devicemotion', function(event){
+  var xacceleration = event.acceleration.x;
+  document.getElementById("accel-x").innerHTML=xacceleration;
+});
 
 
 </script>
